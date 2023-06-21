@@ -1,0 +1,39 @@
+.container1{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+
+    .table-head{
+        padding: 12px 16px;
+     border: 1px solid rgb(224, 224, 224 , 1);
+     font-size: 19px;
+    font-weight: 500;
+    }
+    .css-15v22id-MuiAccordionDetails-root,.css-1fjvggn-MuiPaper-root-MuiAccordion-root  {
+        padding: 0!important;
+    }
+    th , tr,td{
+        border-right: 1px solid rgba(224, 224, 224, 1)!important;
+        width: 25%!important;
+    }
+    .css-34nofg-MuiTableRow-root:last-child td, .css-34nofg-MuiTableRow-root:last-child th {
+        border-right:  1px solid rgba(224, 224, 224, 1)!important;
+    }
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root,.css-smkl36-MuiCollapse-wrapper  {
+        border:  1px solid rgba(224, 224, 224, 1)!important; 
+    }
+    .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+        border: 0!important;
+        box-shadow: none!important;
+    }
+    .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+        margin: 0!important;
+    }
+    .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+     box-shadow: none !important;
+
+    }
+     
+
+}

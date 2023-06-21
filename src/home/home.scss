@@ -1,0 +1,67 @@
+.home{
+    background-image: url("../dialog/icons/background.jpg");
+    background-repeat: no-repeat;
+   height: 55vh;
+   width: 100%;
+   margin-top: 55px;
+}
+.home{
+   position: relative;
+    .home-content{
+        h1{
+            position: absolute;
+            bottom: 30%;
+            left: 35%;
+            color:white
+        }
+        .home-all{
+            width: 50%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            position: absolute;
+            bottom: 15%;
+            left: 20%;
+            .new{
+                width: 10%;
+                padding: 9px;
+                background-color: #e1e1e1;
+                p{
+                    font-size: 13px;    
+                }
+            }
+            .search-icon{
+                width: 10%;
+                padding: 5px;
+                display:flex;
+                justify-content:center ;
+                align-items: center;
+            }
+            .home-search{
+                width: 70%;
+                input{
+                    width: 100%;
+                    border:none !important;
+                    padding: 5px;
+                }
+                textarea:focus, input:focus{
+                    outline: none;
+                }
+            }
+            .button-move{
+                width: 25%;
+                margin-left:20rem;
+                
+                button{
+                    padding: 8px 23px;
+                    font-weight: bold;
+                    background-color: #e53012;
+                    border: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}

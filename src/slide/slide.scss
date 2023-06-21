@@ -1,0 +1,36 @@
+.slide-container{
+    width: 80%;
+    margin: 0 auto;
+    .slide-head{
+        margin: 50px 0;
+    
+    }
+    .slides{
+        margin: 50px 0;
+    
+    }
+    .slide1{
+        padding: 0 10px;
+        
+        .card-title{
+            color: red;
+        }
+
+    }
+
+    .slick-prev:before{
+        color: black!important;
+        font-size: 30px!important;
+    }
+    .slick-next:before {
+        color: black!important;
+        font-size: 30px!important;
+    }
+    .slick-next {
+        right: 0px!important;
+    }
+    .slick-prev {
+        left: -6px!important;
+        z-index: 6;
+    }
+}

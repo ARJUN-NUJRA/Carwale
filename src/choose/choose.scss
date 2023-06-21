@@ -1,0 +1,172 @@
+.navbar-brand{
+    width:10%;
+    img{
+    width:100%;
+    }
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background:#ffffff;
+    padding:10px 40px;
+    font-weight:500;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 999;
+}
+.img{
+    width: 10%;
+    img{
+        width:100%;
+    }
+}
+.image{
+    width: 10%;
+   
+    img{
+        width:100%;
+    }
+}
+#navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  
+    li{
+        list-style-type:none;
+        padding:0 20px;
+       cursor: pointer;
+        
+    }
+    
+}
+#mobile{
+    display:none;
+}
+.input{
+    position: relative;
+    input{
+        padding:0.5rem;
+        width:100%;
+        
+    }
+    svg{
+        position: absolute;
+        right: 6px;
+        top: 6px;
+    }
+}
+
+section{
+    width:75%;
+    margin:5rem auto;}
+.car-container{
+    display:flex;
+    height: 18 rem !important;
+    margin-top: 2rem;
+    .car-row{
+        width: 50%;
+        border: 1px solid grey;
+
+        .card{
+            position: relative;
+           width:100%;
+            .closeicon{
+                position: absolute;
+                top: 5px;
+                right: -140px;
+                cursor: pointer;
+            }
+            .image{
+                width:70%;
+            }
+        }
+        .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+           overflow: visible;
+            box-shadow: none !important;
+            height: 21rem!important;
+            padding-left:70px ;
+        }
+        .css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root{
+            width: 165% !important;
+        }
+        .card1{
+            color:blue;
+            font-size: 20px;
+        }
+        .card2{
+            font-size: 15px;
+            padding:0 0 5px 0;
+        }
+        .card3{
+            padding: 8px 0;
+        }
+        .cardall{
+            padding-bottom: 50px !important;
+        }
+        .card4{
+            padding-bottom: 10px;
+        }
+    }
+
+.car-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+
+    button{
+      border-radius:50%;
+      
+      padding:10px 10px;
+     
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+
+        }
+        .displaycar{
+            display: block;
+        }
+    span{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+        color:blue;
+    }
+    
+}
+}
+.compare-input{
+    input{
+        background-color:red;
+        color:white;
+        border:none;
+        padding:10px 20px;
+        font-size:1rem;
+        margin: 1rem 0;
+    }
+
+}
+.compare-input{
+    input:hover{
+        opacity: 0.5;
+        cursor:pointer;
+    }}
+
+.popup{
+    width:400px;
+    .pop{
+        width: 400px;
+    }
+}
